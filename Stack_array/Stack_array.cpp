@@ -31,6 +31,7 @@ public:
 	void pop() {
 		if (empty()) {
 			cout << "\nStack is empty. Cannot pop." << endl; //1.a
+			return; //1.b
 		}
 	}
 };
