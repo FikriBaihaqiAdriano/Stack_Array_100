@@ -21,5 +21,6 @@ public:
 		}
 
 		top++; //step 2
+		stack_array[top] = element; //step 3
 	}
 };
